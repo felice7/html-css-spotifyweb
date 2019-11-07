@@ -73,15 +73,21 @@ main {
     margin: 30px;
 }
 .menu-alto a {
-    color: white;
+    color: #b3b3b3;
     font-size: 16px;
     font-weight: bold;
 }
 
-h1, p {
+.testo h1 a { 
     color: white;
+    list-style-type: none;
 }
 
+.testo p a {
+    color: #b3b3b3;
+    text-decoration: none;
+    list-style-type: none;
+}
 
 /* inizio parte centrale */
 
