@@ -31,6 +31,7 @@ main {
     flex-direction: column;
     
 }
+
 .menu-laterale img {
     width: 70%;
     padding: 10px;
@@ -42,16 +43,20 @@ main {
     color: #b3b3b3;
     font-size: 16px;
     text-decoration: none;
+
+}
+
+.menu-laterale ul li {
+    margin-top: 10px;
     list-style-type: none;
     
-      
-}
-.menu-laterale  i {
-    margin-right: 10px;
-    margin-top: 10px;
 }
 
+.menu-laterale i {
+    margin-right: 20px;
+}
 
+/* fine menu laterale */
 
 /* inizio menu alto */
 
@@ -70,7 +75,10 @@ main {
 
 .menu-alto ul li {
     margin: 30px;
+
 }
+
+
 .menu-alto a {
     color: #b3b3b3;
     font-size: 16px;
@@ -83,10 +91,14 @@ main {
 }
 
 .testo p a {
+    
     color: #b3b3b3;
     text-decoration: none;
     list-style-type: none;
 }
+
+/* fine menu alto */
+
 
 /* inizio parte centrale */
 
@@ -97,14 +109,17 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 250px;
 
 }
+
 .testo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
 }
+
 .testo p {
     align-self: flex-end;
 }
@@ -119,6 +134,7 @@ main {
 .elemento {
     width: 200px;
     margin: 10px;
+    
 
 }
 .elemento img {
@@ -128,6 +144,8 @@ main {
     color: white;
     text-align: center;
 }
+
+/* fine parte centrale */
 
 
 /* inizio footer */
@@ -221,7 +239,6 @@ main {
 
 }
 
-
 .loghi {
     
     width: 300px;
@@ -232,6 +249,7 @@ main {
     display: flex;
     align-items: center;
 }
+
 .loghi i {
     margin-right: 15px;
 }
